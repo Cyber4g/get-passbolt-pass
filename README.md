@@ -2,6 +2,11 @@
 
 Поиск происходит по названию УЗ(name в таблице passbolt)
 
+# Необходимые пакеты
+
+1) pip insall pgpy
+2) pip install py-passbolt
+
 # Как использовать
 
 1) Скачать privat key из passbolt. Profile -- key inspector.
