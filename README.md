@@ -9,7 +9,7 @@
 
 # Как использовать
 
-1) Скачать privat key из passbolt. Profile -- key inspector.
+1) Скачать privat key из passbolt. Profile --> key inspector.
 2) Заполнить файл config.json.
 2.1) Указать хост passbolt
 2.2) cat passbolt_private.asc далее скопировать и вставить в поле для ключа.
