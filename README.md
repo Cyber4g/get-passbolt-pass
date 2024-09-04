@@ -1,5 +1,7 @@
 # get-passbolt-pass
 
+Поиск происходит по названию УЗ(name в таблице passbolt)
+
 # Как использовать
 
 1) Скачать privat key из passbolt. Profile -- key inspector.
