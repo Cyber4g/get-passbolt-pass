@@ -1,5 +1,5 @@
 {
     "base_url": "passbolt server url",
-    "private_key": "private key",
+    "private_key": "-----BEGIN PGP PRIVATE KEY BLOCK-----your private key-----END PGP PRIVATE KEY BLOCK-----",
     "passphrase": "passphrase from passbolt"
 }
