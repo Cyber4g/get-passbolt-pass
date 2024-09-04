@@ -1,0 +1,5 @@
+{
+    "base_url": "passbolt server url",
+    "private_key": "private key",
+    "passphrase": "passphrase from passbolt"
+}
