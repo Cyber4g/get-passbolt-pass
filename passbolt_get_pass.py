@@ -9,7 +9,7 @@ p = PassboltAPI(dict_config=dict_config)
 
 name = input("enter name: ")
 # получение списка УЗ
-resource = next((item for item in p.get_resources() if item["username"] == name), None)
+resource = next((item for item in p.get_resources() if item["name"] == name), None)
 
 # p.get_resource_secret - получение шифрованного пароля для найденной УЗ
 # дешифровка пароля с помощью p.decrypt() и преобразование дешифрованного пароля в JSON-формат.
