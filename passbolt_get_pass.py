@@ -6,7 +6,7 @@ with open("config.json") as config_file:
     dict_config = json.load(config_file)
 
 p = PassboltAPI(dict_config=dict_config)
-
+# указать имя УЗ(не логин)
 name = input("enter name: ")
 # получение списка УЗ
 resource = next((item for item in p.get_resources() if item["name"] == name), None)
@@ -20,7 +20,6 @@ if resource is not None:
             or json.loads(p.decrypt(p.get_resource_secret(resource["id"])))
     )
 
-    print(res)
     username = resource["username"]
     password = res["password"]
     print("Username: ", username)
